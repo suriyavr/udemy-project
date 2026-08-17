@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family:sans-serif;
+}
+.container {
+    padding: 50px;
+}
+.section-one,.section-five {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-one-contact {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+p {
+    font-size: 15px;
+}
+.section-one-role {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.section-two,.section-three,.section-four,.section-five {
+    margin-top: 20px;
+}
+
+.section-two-description,.section-three-description,.section-four-description,.section-five-description {
+    margin-top: 20px;
+}
+.section-five-title a{
+  color: skyblue;
+}
+.section-three li,.section-four li {
+    list-style: none;
+}
+.section-three {
+    background-color: #2e33c4;
+     color: black;
+     display: inline-block;
+     padding: 20px;
+     height: 200px;
+     border-radius: 10px;
+     vertical-align: top;
+
+}
+
+.section-four {
+     background-color: #c85e0d;
+     color: black;
+     display: inline-block;
+     padding: 20px;
+     height: 200px;
+     border-radius: 10px;
+     vertical-align: top;
+}
+
+.section-four p {
+    padding-top: 15px;
+}
+.section-four-travel-website-text {
+    padding-top: 10px;
+}
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form__input,.contact-form__textare,.contact-form__submit {
+    margin-top: 10px;
+}
+
+.contact-form {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contact-form__textare {
+    padding: 10px;
+    border: none;
+    border: 1px solid black;
+}
+
+.contact-form__submit {
+    padding:10px 20px 10px 20px;
+    background-color: #c85e0d;
+    color: black;
+    border: none;
+
+}
